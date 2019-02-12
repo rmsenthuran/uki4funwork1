@@ -6,7 +6,7 @@ SC.initialize({
 
 $(document).ready(function() {
   // KAVAN OX
-  SC.stream('/tracks/417489108', function(sound) {
+  SC.stream('/tracks/168166232', function(sound) {
     $('#start').click(function(e) {
       e.preventDefault();
       sound.start();
@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
   // IRUTHISUTTU EI SANDAKARA
 
-  SC.stream('/tracks/273618851', function(sound) {
+  SC.stream('/tracks/295549427', function(sound) {
     $('#start1').click(function(e) {
       e.preventDefault();
       sound.start();
